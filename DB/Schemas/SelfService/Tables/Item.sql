@@ -1,0 +1,7 @@
+﻿CREATE TABLE [SelfService].[Item]
+(
+	[ItemId] INT NOT NULL PRIMARY KEY IDENTITY,
+	Sku VARCHAR(50) NOT NULL,
+	Name VARCHAR(100) NOT NULL,
+	Price Decimal NOT NULL
+)

@@ -1,0 +1,6 @@
+﻿CREATE TABLE [SelfService].[Customer]
+(
+	[CustomerId] INT NOT NULL PRIMARY KEY IDENTITY,
+	[Name] VARCHAR(50) NOT NULL,
+	[Phone] VARCHAR(15) NULL
+)
